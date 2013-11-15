@@ -12,10 +12,11 @@ HarpJS application to house custom CSS framework
 
 1. [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. [Install Vagrant](http://downloads.vagrantup.com/)
-3. `vagrant up` (Will take a cople of minutes to boot first time)
-4. `vagrant ssh`
-5. Navigate to `/vagrant` (should map to cloned repo directory)
-6. `sudo docker build -t cornerstone .`
+3. Set `FORWARD_DOCKER_PORTS` env variable (See [Vagrantfile](https://github.com/rackerlabs/cornerstone/blob/master/Vagrantfile#L88))
+4. `vagrant up` (Will take a cople of minutes to boot first time)
+5. `vagrant ssh`
+6. Navigate to `/vagrant` (should map to cloned repo directory)
+7. `sudo docker build -t cornerstone .`
 
 ## HarpJS Container usage
 
