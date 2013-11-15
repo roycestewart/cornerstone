@@ -28,5 +28,8 @@
     },
     "columns": {
         "title": "Columns"
+    },
+    "forms": {
+        "title": "Forms"
     }
 }

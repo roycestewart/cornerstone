@@ -18,6 +18,10 @@
 				"alias": "colors",
 				"title": "Colors"
 			},
+            {
+                "alias": "forms",
+                "title": "Forms"
+            },
 			{
 				"alias": "components",
 				"title": "Components"
